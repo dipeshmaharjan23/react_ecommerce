@@ -49,7 +49,7 @@ export const popularProducts = [
     },
     {
       id:2,
-      img:"https://cdn.shopify.com/s/files/1/0101/4832/products/Angela_Natural_Tee.png?v=1606780388",
+      img:"https://cdn.luxe.digital/media/2019/09/12084954/casual-dress-code-men-style-polo-ralph-lauren-shirt-luxe-digital.jpg",
     },
     {
       id:3,
@@ -69,7 +69,7 @@ export const popularProducts = [
     },
     {
       id:7,
-      img:"https://www.vintageindustries.nl/download_front/qympzk1762/2217_Arrow_Jacket_Forest.png",
+      img:"https://deov19kjit2mc.cloudfront.net/uploads/X139C15-3.jpg",
     },
     {
       id:8,

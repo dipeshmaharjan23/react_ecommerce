@@ -91,6 +91,7 @@ background-color: #${props => props.bg};
 const Image = styled.img`
  height:80%;
  width: 100% ;
+ object-fit: cover;
 `
 const ImgContainer = styled.div`
 flex:1;
