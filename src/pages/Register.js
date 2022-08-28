@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { mobile } from '../Responsive';
 
 const Register = () => {
     return (
@@ -42,6 +43,9 @@ const Wrapper = styled.div`
 width: 40%;
 background-color: #fff;
 padding: 20px;
+
+${mobile({width: "80%" })}
+
 `
 const Title = styled.h1`
 font-size: 24px;

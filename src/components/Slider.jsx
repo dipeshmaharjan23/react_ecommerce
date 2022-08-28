@@ -3,6 +3,7 @@ import { ArrowRightOutlined } from '@material-ui/icons'
 import styled from "styled-components"
 import { useState } from 'react'
 import { sliderItems } from '../data'
+import { mobile } from '../Responsive'
 
 
 const Slider = () => {
@@ -56,6 +57,9 @@ display: flex;
 /* background-color: coral; */
 position:relative;
 overflow:hidden;
+
+${mobile({display: "none" })}
+
 `
 const Arrow = styled.div`
 width: 50px;
